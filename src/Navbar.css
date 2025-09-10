@@ -1,0 +1,8 @@
+ .hover-text {
+  color: black;        
+  transition: color 0.3s ease;
+}
+
+.hover-text:hover {
+  color: orange;   
+}

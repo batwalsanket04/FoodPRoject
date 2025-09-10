@@ -1,0 +1,72 @@
+ .hero-subtitle {
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #ff7f00;
+  font-size: 16px;
+  text-align: center;
+}
+
+.hero-title {
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 700;
+  line-height: 1.2;
+  color: rgb(33, 32, 37);
+  text-align: center;
+  font-size: 87px;
+  max-width: 900px;
+}
+
+/* Medium screens */
+@media (max-width: 992px) {
+  .hero-subtitle { 
+    top: 30%; 
+    font-size: 14px; 
+  }
+  .hero-title { 
+    top: 65%; 
+    font-size: 60px; 
+    max-width: 700px; 
+  }
+}
+
+/* Small screens */
+@media (max-width: 768px) {
+  .hero-subtitle { 
+    top: 25%; 
+    font-size: 13px; 
+  }
+  .hero-title { 
+    top: 60%; 
+    font-size: 40px; 
+    max-width: 500px; 
+  }
+}
+
+/* Extra small */
+@media (max-width: 480px) {
+  .hero-subtitle { 
+    top: 20%; 
+    font-size: 12px; 
+  }
+  .hero-title { 
+    top: 55%; 
+    font-size: 28px; 
+    max-width: 90%; 
+  }
+}
+
+    .heading { position: "absolute",
+      top: isMobile ? "20%" : "20%",
+      left:isMobile? "22%":"11%",
+      transform: "translate(-50%, -50%)",
+      color: "#ff5a00",
+      fontSize: isMobile ? "20px" : "23px",
+      textAlign: "center",
+      fontFamily:'poppins';
+}
