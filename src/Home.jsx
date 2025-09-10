@@ -44,7 +44,8 @@ const Home = () => {
   
 
   return (
-    <div className="container-fluid p-0" data-aos="fade-left">
+    <>
+    <div className="container-fluid p-0 h-100 w-100 pt-5" data-aos="fade-left">
       {/* Hero Section */}
       <div className="position-relative">
         <img
@@ -126,7 +127,12 @@ const Home = () => {
 
       <ContentSection/>
      
-    <div className="container-fluid m-0 p-0">
+  
+
+
+    
+    </div>
+      <div className="container-fluid m-0 p-0">
   <OfferedMenu/>
     <Menu/>
   <Special/>
@@ -138,10 +144,7 @@ const Home = () => {
   <Blog/>
  
 </div>
-
-
-    
-    </div>
+    </>
   );
 };
 
